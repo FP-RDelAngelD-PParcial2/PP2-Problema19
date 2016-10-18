@@ -61,24 +61,24 @@ public class PP2Problema19 {
         }while(a<0 || a>360);//Mientras que a sea menor que 0 o a sea mayor a 360
         return a;     
     }
-    public static void seno(){
+    public static void seno(){ //Se calcula el seno
         double a = verificarAngulo("angulo del cual se quiere obtener seno ");
-        a=Math.toRadians(a);
+        a=Math.toRadians(a);//Se convierte a radianes para poder usarse
         System.out.print("El seno es: " + Math.sin(a));
     }
-    public static void coseno(){
+    public static void coseno(){ //Se calcula el coseno
         double a = verificarAngulo("angulo del cual se quiere obtener coseno ");
-        a=Math.toRadians(a);
+        a=Math.toRadians(a);//Se convierte a radianes para poder usarse
         System.out.print("El coseno es: " + Math.cos(a));
     }
-    public static void tangente(){
+    public static void tangente(){ //Se calcula la tangente
         double a = verificarAngulo("angulo del cual se quiere obtener tangente ");
-        a=Math.toRadians(a);
+        a=Math.toRadians(a);//Se convierte a radianes para poder usarse
         System.out.print("La tangente es: " + Math.tan(a));
     }
-    public static void funcionesT(){
+    public static void funcionesT(){ //Se calculan todas las funciones
         double a = verificarAngulo("angulo del cual se quiere obtener seno, coseno y tangente ");
-        a = Math.toRadians(a);
+        a = Math.toRadians(a);//Se convierte a radianes para poder usarse
         System.out.print("El seno es " + Math.sin(a) + "\n");
         System.out.print("El coseno es " + Math.cos(a) + "\n");
         System.out.print("La tangente es " + Math.tan(a));
