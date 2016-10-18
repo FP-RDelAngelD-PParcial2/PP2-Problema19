@@ -15,19 +15,19 @@ public class PP2Problema19 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        funcionesT();
+        calcularAngulo();
     }
     
     public static void calcularAngulo(){ //Calcula cada una de las funciones
         switch(menu()){ //Entra la opcion elegida en el metodo pasado
             case 1:
-                convertirSeno();
+                seno();
                 break;
             case 2:
-                convertirCoseno();
+                coseno();
                 break;
             case 3:
-                convertirTangente();
+                tangente();
                 break;
             case 4:
                 funcionesT();
@@ -61,14 +61,27 @@ public class PP2Problema19 {
         }while(a<0 || a>360);//Mientras que a sea menor que 0 o a sea mayor a 360
         return a;     
     }
+    public static void seno(){
+        double a = verificarAngulo("angulo del cual se quiere obtener seno ");
+        a=Math.toRadians(a);
+        System.out.print("El seno es: " + Math.sin(a));
+    }
+    public static void coseno(){
+        double a = verificarAngulo("angulo del cual se quiere obtener coseno ");
+        a=Math.toRadians(a);
+        System.out.print("El coseno es: " + Math.cos(a));
+    }
+    public static void tangente(){
+        double a = verificarAngulo("angulo del cual se quiere obtener tangente ");
+        a=Math.toRadians(a);
+        System.out.print("La tangente es: " + Math.tan(a));
+    }
     public static void funcionesT(){
-        double a, sen, cos, tan;
-        a = verificarAngulo("angulo del cual se quiere obtener seno, coseno y tangente");
+        double a = verificarAngulo("angulo del cual se quiere obtener seno, coseno y tangente ");
         a = Math.toRadians(a);
-        sen=Math.sin(a);
-        cos=Math.cos(a);
-        tan=Math.tan(a);
-        System.out.print(sen +"+"+ cos +"+"+ tan);    
+        System.out.print("El seno es " + Math.sin(a) + "\n");
+        System.out.print("El coseno es " + Math.cos(a) + "\n");
+        System.out.print("La tangente es " + Math.tan(a));
     }
     
 }
