@@ -1,0 +1,41 @@
+run:
+Introduce la opcion deseada:
+1. Seno
+2. Coseno
+3. Tangente
+4. Todas
+4
+Introduce el dato angulo del cual se quiere obtener seno, coseno y tangente 75
+El seno es 0.9659258262890683
+El coseno es 0.25881904510252074
+La tangente es 3.7320508075688776BUILD SUCCESSFUL (total time: 5 seconds)
+
+run:
+Introduce la opcion deseada:
+1. Seno
+2. Coseno
+3. Tangente
+4. Todas
+1
+Introduce el dato angulo del cual se quiere obtener seno 75
+El seno es: 0.9659258262890683BUILD SUCCESSFUL (total time: 2 seconds)
+
+run:
+Introduce la opcion deseada:
+1. Seno
+2. Coseno
+3. Tangente
+4. Todas
+2
+Introduce el dato angulo del cual se quiere obtener coseno 75
+El coseno es: 0.25881904510252074BUILD SUCCESSFUL (total time: 2 seconds)
+
+run:
+Introduce la opcion deseada:
+1. Seno
+2. Coseno
+3. Tangente
+4. Todas
+3
+Introduce el dato angulo del cual se quiere obtener tangente 75
+La tangente es: 3.7320508075688776BUILD SUCCESSFUL (total time: 2 seconds)
